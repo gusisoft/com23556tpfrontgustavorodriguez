@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Spinnaker');
+
+
+body {
+    font-family: 'spinnaker', sans-serif;
+
+}
+
+header {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(IMG/interior23.jpg) no-repeat center center fixed;
+    background-position: center;
+    background-size: cover;
+    height: 630px;
+}
+
+
+/* ancho/alto automatico para que las imagenes queden igual en las cards*/
+.img-card {
+
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.bg-footer {
+
+    background-color: rgb(230, 67, 88);
+}
+
+.a-reset{
+
+
+    color: white;
+    text-decoration: none;
+    font-family: 'spinnaker', sans-serif;
+}
